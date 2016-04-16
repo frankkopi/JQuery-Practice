@@ -1,0 +1,55 @@
+div {
+    width: 500px;
+    height: 200px;
+}
+
+div.class1 {
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    border: 1px solid black;
+    float: left;
+    top: 30px;
+    margin-left: 20px;
+    position: relative;
+}
+
+div.class2 {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    float: left;
+    top: 30px;
+    margin-left: 20px;
+    position: relative;
+}
+
+div.class3 {
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    border: 1px solid black;
+    float: left;
+    top: 30px;
+    margin-left: 20px;
+    position: relative;
+}
+
+div.class4 {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    float: left;
+    top: 30px;
+    margin-left: 20px;
+    position: relative;
+}
+
+p {
+    left: 100px;
+    top: 20px;
+    font-weight: bold;
+    position: relative;
+}

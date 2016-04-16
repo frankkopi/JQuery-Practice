@@ -1,0 +1,29 @@
+.buttons {
+    width: 200px;
+    height: 20px;
+    margin: 20px;
+}
+
+.outer {
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+}
+
+.outer.outer2 {
+    left: 280px;
+    top: -220px;
+    position: relative;
+}
+
+.outer.outer3 {
+    left: 560px;
+    top: -440px;
+    position: relative;
+}
+
+.innerBox {
+    width: 200px;
+    height: 200px;
+    background-color: #dd4b39;
+}

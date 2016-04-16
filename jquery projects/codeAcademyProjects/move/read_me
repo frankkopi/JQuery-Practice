@@ -1,0 +1,11 @@
+In this project you'll use JQuery UI autocomplete widget.
+
+MOVE wants to add a "Find your city" form that lists their locations around the world.
+As you type letters into the form, results are auto-suggested.
+
+
+Developers have extended jQuery's functionality by building new libraries on top of it. One of these libraries
+is called jQuery UI. With jQuery UI, you can quickly add other common interactive components to a web page instead
+of writing it yourself, like datepickers, sliders, and accordions..
+
+We'll use jQuery UI's autocomplete widget for MOVE's home page.

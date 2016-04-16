@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../../../lib/jquery-2.2.1.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <div id="one">div # one</div>
+    <p>This paragraph is moved with the .after function</p>
+    <p id="p2">This paragraph is moved with the .before function</p>
+    <div id="two">div # two</div>
+
+    <script>
+        // Note: This does not copy the element from one location to another,
+        // it moves the original element effectively saving you from having to delete the original
+        var $paragraph = $('p');  // existing element
+        $('#two').after($paragraph); // Move it!
+        // Same as:
+        // $('#two').after($('p'));
+
+        var $p2 = $('#p2');
+        $('#one').before($p2);
+
+    </script>
+</body>
+</html>

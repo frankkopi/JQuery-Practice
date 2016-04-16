@@ -1,0 +1,5 @@
+In this project you'll learn to add filtering to a portfolio page
+using .addClass and .removeClass.
+
+Armando Pérez wants to add filtering to his portfolio page.
+When a nav pill is clicked, different images on the page are selected.

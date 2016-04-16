@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../../../lib/jquery-2.2.1.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <div id="one"># div one</div>
+    <div id="two"># div two</div>
+
+    <script>
+        $(document).ready(function(){
+            $('#one').after('<p>This paragraph is made with .after</p>');
+
+            $('#two').before('<p>This paragraph is made with .before</p>');
+        });
+    </script>
+</body>
+</html>

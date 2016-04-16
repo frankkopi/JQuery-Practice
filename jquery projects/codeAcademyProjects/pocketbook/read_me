@@ -1,0 +1,5 @@
+Learn to use the .submit event to make an error message
+appear when form fields are filled incorrectly.
+
+Pocketbook wants to add error message to their sign up page if any
+of the form fields are filled out incorrectly.

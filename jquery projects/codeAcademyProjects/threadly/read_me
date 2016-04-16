@@ -1,0 +1,5 @@
+In this project you'll help create a commenting service using
+the .keypress event, .text(), and .appendTo().
+
+Threadly is creating a commenting service.
+Type a comment into the comment box and click the Post button.

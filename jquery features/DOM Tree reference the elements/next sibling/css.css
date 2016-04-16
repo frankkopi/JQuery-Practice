@@ -1,0 +1,30 @@
+.container {
+    width: 400px;
+    height: 200px;
+    background-color: #d8d8d7;
+    margin: auto;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888;
+    top: 200px;
+    position: relative;
+}
+
+a {
+    margin: 10px;
+}
+
+.more-menu {
+    display: none;
+}
+
+.share {
+    width: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.share-menu {
+    display: none;
+}

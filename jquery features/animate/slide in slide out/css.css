@@ -1,0 +1,26 @@
+.buttons {
+    width: 220px;
+    height: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.buttons.buttons2 {
+    left: 300px;
+    top: -240px;
+    position: relative;
+}
+
+.innerBox {
+    width: 200px;
+    height: 200px;
+    background-color: #dd4b39;
+    left: 100px;
+    position: relative;
+}
+
+#box2 {
+    left: 400px;
+    top: -240px;
+    position: relative;
+}

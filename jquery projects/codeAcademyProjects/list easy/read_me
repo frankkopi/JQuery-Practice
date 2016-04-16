@@ -1,0 +1,6 @@
+In this project you'll help a task management app make a
+to-do list interactive using the .submit event to .appendTo()
+new items and .click event to .remove()items.
+
+ListEasy is making a task management app.
+A user can add a new item, star items, and remove items.

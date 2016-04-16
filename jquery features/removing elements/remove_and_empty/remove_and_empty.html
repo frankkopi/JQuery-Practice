@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../../../lib/jquery-2.2.1.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <div id="one">div # one</div>
+    <p>This paragraph is removed with the .remove() function</p>
+    <div id="two">div # two</div>
+
+    <br/>
+    <br/>
+
+    <div>
+        <h3>call empty() on an ordered list</h3>
+        <ol>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ol>
+    </div>
+
+
+    <script>
+        // .empty() deletes an element's content and all its descendants. For instance,
+        // if you .empty() an 'ol', you'll also remove all its 'li's and their text.
+        //.remove(), not only deletes an element's content, but deletes the element itself.
+        $('p').remove();
+
+        $('ol').empty();
+
+    </script>
+</body>
+</html>

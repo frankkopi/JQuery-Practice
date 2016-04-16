@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- We can update the contents of our HTML elements—that is, the bit between the
+         opening and closing tags—using the .html() and .val() functions. -->
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../../../lib/jquery-2.2.1.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <div id="test">Content of the div</div><br/>
+    <button>Click to change content</button>
+    <div id="test2">This will change soon!</div>
+
+    <script>
+        // $('div').html();
+        // will get the HTML contents of the first div it finds, and
+
+        // $('div').html("I love jQuery!");
+        // will set the contents of the first div it finds to "I love jQuery!"
+
+        // .val() is used to get the value of form elements. For example,
+        // $('input:checkbox:checked').val();
+        // would get the value of the first checked checkbox that jQuery finds.
+
+        $(document).ready(function(){
+            // get content of an element
+            var $content = $('#test').html();
+            console.log($content);
+
+            // modifying content of an element
+            $('button').click(function(){
+                $('#test2').html('Change change change');
+            });
+
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+Build a dropdown menu using a click event and .toggle()
+animation method.
+
+Birdman wants to add a dropdown menu to their home page.
+Click on the menu icon at the top left to alternate showing
+and hiding the dropdown menu.

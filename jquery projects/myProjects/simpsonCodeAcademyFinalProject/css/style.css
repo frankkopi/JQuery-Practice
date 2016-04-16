@@ -1,0 +1,113 @@
+#gamePane {
+    width: 800px;
+    height: 600px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 0 100px 0 #080808;
+    margin: auto;
+    top: 70px;
+    position: relative;
+    text-align: center;
+}
+#welcomeCaption {
+    margin-top: 40px;
+    text-decoration: underline;
+}
+
+#gameScoreCaption h3 {
+    margin-top: 40px;
+    margin-left: 100px;
+    text-decoration: underline;
+}
+
+#score {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: red;
+    text-decoration: none;
+    border: 2px solid #333333;
+    border-radius: 5px;
+    margin-top: 28px;
+}
+
+div #score h4 {
+    float: left;
+    margin-left: 10px;
+    padding-top: 5px;
+    display: inline-block;
+}
+div #score #points {
+    font-size: 30px;
+    top: -8px;
+    position: relative;
+}
+
+#introPane img {
+    margin-top: 30px;
+}
+
+#gamePane button {
+    margin-top: 30px;
+    text-align: center;
+}
+.gameChoices {
+    width: 500px;
+    height: 300px;
+    background-color: #d3d3d3;
+    border: 1px solid #333;
+    border-radius: 10px;
+    display: none;
+    margin-top: 50px;
+    padding: 0 30px;
+}
+
+.errorMessage {
+    color: red;
+    text-decoration: none;
+}
+
+.radios {
+    text-align: left;
+}
+
+label, .continueButton {
+    display: block;
+    margin-left: 40%;
+}
+
+#firstChoice .continueButton {
+    width: 70px;
+    height: 25px;
+    margin-top: 0;
+}
+
+button#fightButton {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #F8B801;
+    border: 2px solid #333;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#fightingNelson col.md-4 {
+    text-align: center;
+}
+#fightingNelson img {
+    margin-top: 10px;
+}
+
+.throws {
+    width: 80px;
+    height: 40px;
+    font-size: 30px;
+    padding-top: 0;
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 0 auto;
+}

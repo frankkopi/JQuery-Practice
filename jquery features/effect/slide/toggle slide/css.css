@@ -1,0 +1,23 @@
+div#box {
+    width: 800px;
+    height: 400px;
+    background-color: #d3d3d3;
+    margin: auto;
+    top: 100px;
+    position: relative;
+}
+
+
+
+div#btn {
+    width: 200px;
+    height: 20px;
+    margin: auto;
+    top: 40px;
+    position: relative;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+}
